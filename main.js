@@ -5,8 +5,8 @@ const OPERATIONS = {
   DIVISION: '/',
 };
 function calc() {
-  const oneNum = +document.getElementById("inputOne").value;
-  const secNum = +document.getElementById("inputSecond").value;
+  const oneNum = Number(document.getElementById("inputOne").value);
+  const secNum = Number(document.getElementById("inputSecond").value);
   const oper = document.getElementById("select").value;
   let res
   if (oper === OPERATIONS.PLUS) {

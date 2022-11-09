@@ -23,5 +23,7 @@ input, select, button, span {
 	margin-right: 10px;
 }
 #res {
-	border-bottom: 1px solid red;
+	border: 1px solid red;
+	padding: 5px;
+	border-radius: 10px;
 }
