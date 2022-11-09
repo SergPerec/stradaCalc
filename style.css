@@ -1,0 +1,27 @@
+body {
+  width: 100%;
+  margin: 0;
+  box-sizing: border-box;
+	font-size: 28px;
+}
+input, select, button, span {
+	font-size: inherit;
+}
+.calc {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#inputOne, #inputSecond {
+  margin: 10px;
+  width: 100px;
+}
+.btn {
+	border: 1px solid black;
+	cursor: pointer;
+	margin-right: 10px;
+}
+#res {
+	border-bottom: 1px solid red;
+}
